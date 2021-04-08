@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "deploy": "yarn lambda:package && yarn terraform:deploy",
+    "destroy": "yarn terraform:destroy",
+    "terraform:deploy": "cd terraform && terraform apply -auto-approve",
+    "terraform:destroy": "cd terraform && terraform destroy -auto-approve",
+    "lambda:package": "lerna run lambda:package"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

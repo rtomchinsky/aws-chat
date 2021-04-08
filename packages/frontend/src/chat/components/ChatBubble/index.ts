@@ -1,0 +1,1 @@
+export { createChatBubbleComponent } from './createChatBubbleComponent';

@@ -1,0 +1,27 @@
+{
+  "name": "@aws-chat/frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lambda:package": "yarn build"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@types/aws-lambda": "^8.10.75",
+    "luxon": "^1.26.0",
+    "next": "10.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rxjs": "^6.6.6"
+  },
+  "devDependencies": {
+    "@types/luxon": "^1.26.2",
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "typescript": "^4.2.3"
+  }
+}

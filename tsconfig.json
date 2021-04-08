@@ -1,0 +1,6 @@
+{
+  "references": [
+    { "path": "./packages/backend-core/tsconfig.json" }
+  ],
+  "files": []
+}
